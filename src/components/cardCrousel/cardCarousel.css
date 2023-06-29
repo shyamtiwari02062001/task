@@ -1,0 +1,93 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.cardRowContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardRow {
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.arrow {
+  font-size: 24px;
+  background-color: lightblue;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatarContent {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.avatarText {
+  margin-left: 20px;
+}
+
+.name {
+  color: #000;
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.customerReview {
+  margin-top: 10px;
+  color: #000;
+font-size: 12px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.carouselDotsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.carouselDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+}
+
+.carouselDot.active {
+  background-color: #7A3199;
+}
+
+.carouselDotContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.carouselDotContainer .carouselDot {
+  margin: 0 5px;
+}

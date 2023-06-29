@@ -1,0 +1,67 @@
+.article {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.picture {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.centerContainer {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan {
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.planText {
+    width: 400px;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cardCarouselContainer {
+    height: 800px;
+    width: 100%;
+}
+
+.review {
+    color: #000;
+    font-size: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.aboutReview {
+    color: #000;
+    font-size: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 399px;
+    flex-direction: column;
+}

@@ -1,0 +1,63 @@
+.planCardBody {
+    display: inline-flex;
+    padding: 35px 27px;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 280px;
+    width: 175px;
+    border-radius: 10px;
+    border: 0.5px solid #7A3199;
+    background: #FFF;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.heading {
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.planSubText {
+    font-size: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pricing {
+    font-size: 32px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 20px;
+}
+
+.perMonth {
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.list {
+    font-size: 12px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.buttonStyles{
+    display: flex;
+padding: 12px 24px 12px 24px;
+justify-content: center;
+align-items: center;border-radius: 5px;
+border: 0.5px solid  #7A3199;
+}

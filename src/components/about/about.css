@@ -1,0 +1,78 @@
+.aboutText {
+    color: #000;
+    font-size: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.aboutCourseText {
+    color: #000;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 84px;
+}
+
+.about-container {
+    display: flex;
+    height: 525px;
+    margin-bottom: 50px;
+}
+
+.card-section {
+    flex: 1;
+    display: flex;
+}
+
+.card-row {
+    flex: 1;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 220px;
+}
+
+.card-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.card-columns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.about-course-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.about-course-content {
+    display: flex;
+    flex-direction: column;
+    height: 525px;
+    width: 367px;
+    justify-content: center;
+}.exploreButton {
+    color: #fff;
+    width: 237px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+    position: absolute;
+    bottom: 60px;
+  }
